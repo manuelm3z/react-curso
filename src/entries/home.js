@@ -5,7 +5,7 @@ import {
 import Home from '../pages/containers/home';
 import data from '../api';
 
-const app = document.getElementById('app');
+const app = document.getElementById('home-container');
 
 render(<Home
   data={data}
